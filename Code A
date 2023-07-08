@@ -1,4 +1,17 @@
-
+/*
+ 
+Mod Title: DemReagan '76
+Mod Author: u/cathleen_xoxo
+Mod Version: 1.0
+Mod Description: Alternate history scenario for the 1976 election between a Democratic Reagan and President Ford
+Coding License: Apache License 2.0
+Writing License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+For the coding in this mod, I hereby release the code under the terms and conditions of the Apache License 2.0. The full text of the license can be found at:
+https://choosealicense.com/licenses/apache-2.0/
+For the writing in this mod, including documentation, text files, and other non-software written works, I hereby release the content under the terms and conditions of the Creative Commons Attribution 4.0 International (CC BY 4.0) license. The full text of the license can be found at:
+https://creativecommons.org/licenses/by/4.0/legalcode
+By using, distributing, or modifying this mod, you agree to abide by the terms and conditions of both the Apache License 2.0 and the Creative Commons Attribution 4.0 International (CC BY 4.0) license.
+*/
 
 campaignTrail_temp.election_json = JSON.parse("[{\"model\": \"campaign_trail.election\", \"pk\": 10, \"fields\": {\"year\": 1976, \"summary\": \"<p>As the 1976 election season is kicking into gear, public confidence and trust in Washington is at an all-time low. Due to the Watergate scandal, the Vietnam War, and the poor economy, many feel as though it’s time for an outsider to occupy the Oval Office.<p> <ul><li>Ronald Reagan is the former Governor of California, a political outsider and a staunch progressive, who narrowly won the nomination after a chaotic primary season.</li><li>Gerald Ford is the incumbent President, who assumed the office after Nixon’s resignation.<p>Reagan starts off with a large lead in the polls, but the race will surely narrow with time.</p>\", \"image_url\": \"https://cdn.discordapp.com/attachments/823843746385756214/1078994435779592302/image.png\", \"winning_electoral_vote_number\": 270, \"advisor_url\": \"https://cdn.discordapp.com/attachments/1087397276156170303/1113887326494535761/image.png\", \"has_visits\": 1, \"no_electoral_majority_image\": \"https://upload.wikimedia.org/wikipedia/commons/2/21/Capitol_Washington_DC_around_1970_-_panoramio.jpg\"}}]");
 
@@ -42,17 +55,4 @@ campaignTrail_temp.show_premium = true;
 campaignTrail_temp.premier_ab_test_version = -1;
 campaignTrail_temp.credits = 'u/cathleen_xoxo and u/OneBigBruhMoment';
 
-/*
- 
-Mod Title: [Insert Mod Title]
-Mod Author: [Insert Mod Author]
-Mod Version: [Insert Mod Version]
-Mod Description: [Insert Mod Description]
-Coding License: Apache License 2.0
-Writing License: Creative Commons Attribution 4.0 International (CC BY 4.0)
-For the coding in this mod, I hereby release the code under the terms and conditions of the Apache License 2.0. The full text of the license can be found at:
-https://choosealicense.com/licenses/apache-2.0/
-For the writing in this mod, including documentation, text files, and other non-software written works, I hereby release the content under the terms and conditions of the Creative Commons Attribution 4.0 International (CC BY 4.0) license. The full text of the license can be found at:
-https://creativecommons.org/licenses/by/4.0/legalcode
-By using, distributing, or modifying this mod, you agree to abide by the terms and conditions of both the Apache License 2.0 and the Creative Commons Attribution 4.0 International (CC BY 4.0) license.
-*/
+
