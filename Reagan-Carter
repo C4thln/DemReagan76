@@ -12,6 +12,7 @@ For the writing in this mod, including documentation, text files, and other non-
 https://creativecommons.org/licenses/by/4.0/legalcode
 By using, distributing, or modifying this mod, you agree to abide by the terms and conditions of both the Apache License 2.0 and the Creative Commons Attribution 4.0 International (CC BY 4.0) license.
 */
+
 campaignTrail_temp.questions_json = [
     {
         "model": "campaign_trail.question",
@@ -5694,7 +5695,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 92,
             "state": 273,
-            "state_multiplier": 0.65
+            "state_multiplier": 0.68
         }
     },
     {
@@ -5856,7 +5857,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 93,
             "state": 240,
-            "state_multiplier": 0.004
+            "state_multiplier": 0.025
         }
     },
     {
@@ -5937,7 +5938,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 93,
             "state": 249,
-            "state_multiplier": 0.0003
+            "state_multiplier": 0.03
         }
     },
     {
@@ -6054,7 +6055,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 93,
             "state": 264,
-            "state_multiplier": 0.003
+            "state_multiplier": 0.015
         }
     },
     {
@@ -6117,7 +6118,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 93,
             "state": 271,
-            "state_multiplier": 0.0034
+            "state_multiplier": 0.04
         }
     },
     {
@@ -6761,16 +6762,6 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 1015,
-        "fields": {
-            "answer": 4004,
-            "candidate": 91,
-            "affected_candidate": 91,
-            "global_multiplier": -0.0001
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
         "pk": 1016,
         "fields": {
             "answer": 6001,
@@ -6826,7 +6817,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 14003,
             "candidate": 91,
             "affected_candidate": 91,
-            "global_multiplier": -0.065
+            "global_multiplier": -0.035
         }
     },
     {
@@ -7426,7 +7417,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 14001,
             "candidate": 91,
             "affected_candidate": 91,
-            "global_multiplier": -0.08
+            "global_multiplier": -0.05
         }
     },
     {
@@ -7506,7 +7497,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 29001,
             "candidate": 91,
             "affected_candidate": 91,
-            "global_multiplier": 0.05
+            "global_multiplier": 0.02
         }
     },
     {
@@ -7515,7 +7506,7 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 29002,
             "candidate": 91,
-            "affected_candidate": 91,
+            "affected_candidate": 92,
             "global_multiplier": 0.001
         }
     },
@@ -7526,7 +7517,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 29003,
             "candidate": 91,
             "affected_candidate": 92,
-            "global_multiplier": 0.05
+            "global_multiplier": 0.02
         }
     },
     {
@@ -8588,7 +8579,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 4001,
             "issue": 32,
-            "issue_score": 0.001,
+            "issue_score": 0.1,
             "issue_importance": 0.1
         }
     },
@@ -9071,6 +9062,46 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue_score": 0.1,
             "issue_importance": 1
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 34051,
+        "fields": {
+            "answer": 4004,
+            "issue": 34,
+            "issue_score": 0.1,
+            "issue_importance": 0.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 34052,
+        "fields": {
+            "answer": 4004,
+            "issue": 33,
+            "issue_score": 0.1,
+            "issue_importance": 0.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 34053,
+        "fields": {
+            "answer": 4004,
+            "issue": 35,
+            "issue_score": 0.1,
+            "issue_importance": 0.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 34054,
+        "fields": {
+            "answer": 4004,
+            "issue": 36,
+            "issue_score": 0.1,
+            "issue_importance": 0.5
+        }
     }
 ]
 
@@ -9182,7 +9213,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 241,
             "candidate": 91,
             "affected_candidate": 91,
-            "state_multiplier": 0.1
+            "state_multiplier": 0.11
         }
     },
     {
@@ -9941,7 +9972,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 235,
             "candidate": 91,
             "affected_candidate": 91,
-            "state_multiplier": 0.085
+            "state_multiplier": 0.08
         }
     },
     {
@@ -9952,7 +9983,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 273,
             "candidate": 91,
             "affected_candidate": 91,
-            "state_multiplier": 0.08
+            "state_multiplier": 0.077
         }
     },
     {
@@ -10122,7 +10153,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 4002,
             "candidate": 91,
-            "answer_feedback": "This is a good step towards uniting the party after the very contentious primaries. You will have to do more to win everybody over, however. Advisors are also confused as you avoided talking about Watergate."
+            "answer_feedback": "This is a good step towards uniting the party after the very contentious primaries. You will have to do more to win everybody over, however. Also do keep in mind that character comes before policy in this election."
         }
     },
     {
@@ -10131,7 +10162,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 4003,
             "candidate": 91,
-            "answer_feedback": "Ford is unpopular, but negativity doesn’t play particularly well with voters. Your base loves it, though."
+            "answer_feedback": "Ford is unpopular, but negativity doesn’t play particularly well with voters, particularly independents. This type of language is appealing to a wide range of Democrats, however."
         }
     },
     {
@@ -10140,7 +10171,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 4004,
             "candidate": 91,
-            "answer_feedback": "This is a good, progressive answer, and your own supporters at the convention are overjoyed. Moderates however, are left disgruntled and uncomfortable. Advisors are also curious for as to why you avoided talking about Watergate."
+            "answer_feedback": "Your own supporters at the convention are overjoyed, and your speech draws plenty of comparisons to your “A Time For Choosing” speech you held four years ago. Moderates however, are left disgruntled and uncomfortable."
         }
     },
     {
@@ -10158,7 +10189,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 6001,
             "candidate": 91,
-            "answer_feedback": "In the aftermath of Vietnam and Watergate, this is what a majority of Americans want to hear right now. Jimmy's credentials to character certainly don't hurt either."
+            "answer_feedback": "In the aftermath of Vietnam and Watergate, this is what a majority of Americans want to hear right now. Carter's commitment to good character certainly doesn't hurt either."
         }
     },
     {
@@ -11144,21 +11175,30 @@ campaignTrail_temp.answer_feedback_json = [
     }
 ]
 
+campaignTrail_temp.candidate_image_url = "https://cdn.discordapp.com/attachments/1087397276156170303/1128790014063546449/image.png";
+campaignTrail_temp.running_mate_image_url = "https://cdn.discordapp.com/attachments/1087397276156170303/1128790782971744356/image.png";
+campaignTrail_temp.candidate_last_name = "Reagan";
+campaignTrail_temp.running_mate_last_name = "Carter";
+
+
+
 campaignTrail_temp.jet_data = [{
     "cyoa_enabled": false,
     "banner_data": {
         "canName": "Reagan",
-        "canImage": "https://cdn.discordapp.com/attachments/823843746385756214/1063875669660020866/c3525-20.png",
-        "runImage": "https://cdn.discordapp.com/attachments/1087397276156170303/1099311630883508294/image.png",
+        "canImage": "https://cdn.discordapp.com/attachments/1087397276156170303/1128790014063546449/image.png",
+        "runImage": "https://cdn.discordapp.com/attachments/1087397276156170303/1128790782971744356/image.png",
         "runName": "Carter"
     },
-    "banner_enabled": true
+    "banner_enabled": true,
+    "nicknames": {
+        "91": "Ron",
+        "92": "Jerry",
+        "93": "Gene"
+    },
+    "mapping_enabled": false,
+    "mapping_data": {},
+    "cyoa_data": {}
 }
 ]
-
-campaignTrail_temp.candidate_image_url = "https://cdn.discordapp.com/attachments/823843746385756214/1063875669660020866/c3525-20.png"
-campaignTrail_temp.running_mate_image_url = "https://cdn.discordapp.com/attachments/1087397276156170303/1099311630883508294/image.png"
-campaignTrail_temp.candidate_last_name = "Reagan"
-campaignTrail_temp.running_mate_last_name = "Carter"
-
 
