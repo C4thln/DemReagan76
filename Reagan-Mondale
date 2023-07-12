@@ -11213,11 +11213,18 @@ campaignTrail_temp.answer_feedback_json = [
     }
 ]
 
+campaignTrail_temp.candidate_image_url = "https://cdn.discordapp.com/attachments/1087397276156170303/1128790014063546449/image.png";
+campaignTrail_temp.running_mate_image_url = "https://cdn.discordapp.com/attachments/1087397276156170303/1092005453770260590/image.png";
+campaignTrail_temp.candidate_last_name = "Reagan";
+campaignTrail_temp.running_mate_last_name = "Mondale";
+
+
+
 campaignTrail_temp.jet_data = [{
     "cyoa_enabled": false,
     "banner_data": {
         "canName": "Reagan",
-        "canImage": "https://cdn.discordapp.com/attachments/823843746385756214/1063875669660020866/c3525-20.png",
+        "canImage": "https://cdn.discordapp.com/attachments/1087397276156170303/1128790014063546449/image.png",
         "runImage": "https://cdn.discordapp.com/attachments/1087397276156170303/1092005453770260590/image.png",
         "runName": "Mondale"
     },
@@ -11232,7 +11239,3 @@ campaignTrail_temp.jet_data = [{
 }
 ]
 
-campaignTrail_temp.candidate_image_url = "https://cdn.discordapp.com/attachments/823843746385756214/1063875669660020866/c3525-20.png"
-campaignTrail_temp.running_mate_image_url = "https://cdn.discordapp.com/attachments/1087397276156170303/1092005453770260590/image.png"
-campaignTrail_temp.candidate_last_name = "Reagan"
-campaignTrail_temp.running_mate_last_name = "Mondale"
