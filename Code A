@@ -15,6 +15,8 @@ By using, distributing, or modifying this mod, you agree to abide by the terms a
 
 
 
+
+
 campaignTrail_temp.election_json = JSON.parse("[{\"model\": \"campaign_trail.election\", \"pk\": 10, \"fields\": {\"year\": 1976, \"summary\": \"<p>As the 1976 election season is kicking into gear, public confidence and trust in Washington is at an all-time low. Due to the Watergate scandal, the Vietnam War, and the poor economy, many feel as though it’s time for an outsider to occupy the Oval Office.<p> <ul><li>Ronald Reagan is the former Governor of California, a political outsider and a staunch progressive, who narrowly won the nomination after a chaotic primary season.</li><li>Gerald Ford is the incumbent President, who assumed the office after Nixon’s resignation.<p>Reagan starts off with a large lead in the polls, but the race will surely narrow with time.</p>\", \"image_url\": \"https://cdn.discordapp.com/attachments/823843746385756214/1078994435779592302/image.png\", \"winning_electoral_vote_number\": 270, \"advisor_url\": \"https://cdn.discordapp.com/attachments/1087397276156170303/1113887326494535761/image.png\", \"has_visits\": 1, \"no_electoral_majority_image\": \"https://upload.wikimedia.org/wikipedia/commons/2/21/Capitol_Washington_DC_around_1970_-_panoramio.jpg\"}}]");
 
 
@@ -37,7 +39,7 @@ campaignTrail_temp.global_parameter_json = JSON.parse("[{\"model\": \"campaign_t
 
 
 HistHexcolour=["#b72400","#3665c9","#caa528","#197a26"]; 
-HistName=["Ronald W. Reagan","Gerald R. Ford","Eugene J. McCarthy","Other Candidates"]; 
+HistName=[" Ronald W. Reagan"," Gerald R. Ford"," Eugene J. McCarthy"," Other Candidates"]; 
 HistEV=[324,214,0,0]; 
 HistPV=["41,804,343","37,722,865","864,409","734,435"]; HistPVP=["51.5%","46.5%","1.1%","0.9%"];
 
@@ -62,4 +64,3 @@ campaignTrail_temp.show_premium = true;
 
 campaignTrail_temp.premier_ab_test_version = -1;
 campaignTrail_temp.credits = 'u/cathleen_xoxo and u/OneBigBruhMoment';
-
