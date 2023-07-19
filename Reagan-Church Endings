@@ -1,0 +1,109 @@
+/*
+ 
+Mod Title: DemReagan '76
+Mod Author: u/cathleen_xoxo
+Mod Version: 1.0
+Mod Description: Alternate history scenario for the 1976 election between a Democratic Reagan and President Ford
+Coding License: Apache License 2.0
+Writing License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+For the coding in this mod, I hereby release the code under the terms and conditions of the Apache License 2.0. The full text of the license can be found at:
+https://choosealicense.com/licenses/apache-2.0/
+For the writing in this mod, including documentation, text files, and other non-software written works, I hereby release the content under the terms and conditions of the Creative Commons Attribution 4.0 International (CC BY 4.0) license. The full text of the license can be found at:
+https://creativecommons.org/licenses/by/4.0/legalcode
+By using, distributing, or modifying this mod, you agree to abide by the terms and conditions of both the Apache License 2.0 and the Creative Commons Attribution 4.0 International (CC BY 4.0) license.
+*/
+
+orderID = [aa[0].candidate, aa[1].candidate, aa[2].candidate];
+    playerID = campaignTrail_temp.candidate_id;
+    playerEV = quickstats[0]
+//out = "win", "loss", or "tie" for your candidate
+//totv = total votes in entire election
+//aa = all final overall results data
+//quickstats = relevant data on candidate performance (format: your candidate's electoral vote count, your candidate's popular vote share, your candidate's raw vote total)
+if (campaignTrail_temp.player_answers[26] == 28004 && quickstats[0] < 270) {
+  if (used != true) {
+      setInterval(function () {
+          used = true;
+          imgg = document.getElementsByClassName("person_image")[0];
+          document.body.background = "https://i.imgur.com/5yXrgn0.png" 
+          document.getElementById("header").src = "https://i.imgur.com/EJtK1oL.png" 
+          if (imgg != null) {
+              imgg.src = "https://i.imgur.com/TB9Gqnw.png"; 
+          }
+      }, 100);
+  }
+    return "<h3></h3><audio loop='true' autoplay='true' src='https://s2.fileditch.ch/dfGsldQykjcnWRQeYnVz.mp3' style='display:none;'></audio>"
+} if (campaignTrail_temp.player_answers[26] == 28004 && quickstats[0] >= 270) {
+  if (used != true) {
+      setInterval(function () {
+          used = true;
+          imgg = document.getElementsByClassName("person_image")[0];
+          document.body.background = "https://i.imgur.com/Zs54aD0.png" 
+          document.getElementById("header").src = "https://i.imgur.com/z9svjtJ.png" 
+          if (imgg != null) {
+              imgg.src = "https://i.imgur.com/6BFpyQp.png"; 
+          }
+      }, 100);
+  }
+    return "<h3><i>April 3rd, 1977, 7:31 PM, The White House</i></h3><p>President Reagan sat alone in the Oval Office with nothing but the soft buzzing of the lamps to keep him company. A few minutes ago, possibly 10, 20, 30, one of his top aides shuffled into the room holding a joint letter from several senators in reaction to his recent<i> economic reform</i> bill. Some of the names on the header he recognized as Democrat and others as Republican.<p>The letter seemed to radiate every emotion of those who penned it; the rage of Thurmond; the disgust of Goldwater; the distress of Kennedy; the anxiety of McGovern; and the two cents of other less remarkable figures. Reagan skimmed through the letter over and over again, sneering at their pleas. He thought of them as nothing more than beggars of reactionaries. But these begging reactionaries would no way in hell let the bill get past committee. Unless…what would a few <i>prerogatives</i> from the Chief Magistrate do to push this legislation along?<p>Turning the paper over, Reagan quickly scrawled down some names and phoned his staff to gather some of the more <i>reliable</i> Bureau men for a chat.</p>" 
+} if (quickstats[0] == 17) {
+    if (used != true) {
+        setInterval(function () {
+            used = true;
+            imgg = document.getElementsByClassName("person_image")[0];
+            if (imgg != null) {
+                imgg.src = "https://i.imgur.com/9tqyZVa.png";
+            }
+        }, 100);
+    }
+    return "<h3></h3><p><div style='overflow-y: scroll;height: 17em;'><table style='margin:0px;padding:0px;display: flex;'><tbody style='display: flex;'><tr><td style='border: none;padding: 0px;display: flow-root;'><p style=margin-left:0em;margin-right: 0em;'><p style='margin-bottom: 1em;margin-left: 0em;margin-right: 0em;'></p><table style='display: block;margin-right: 0.5em;background-color:#FDFEEE'><tbody style='display: flex;'><tr><td style='display: flex;'><font size: “1”><div style=position:relative;top:5px;left:-74px><img src='https://i.imgur.com/9Xk4FmZ.png' width='400' height='79' /></div><p style=padding:0.25em;margin:0.25em;text-align:center;font-family:courier;color:Navy>November 2, 1976</p></p><p><p style=padding:0.25em;margin:0.25em;font-family:courier;color:Navy>Dear Mr. Reagan:<br><br>“History repeats itself.”<br><br>That’s what Gary told me the night Cronkite announced I only won Massachusetts and D.C. The sting of a defeat that large lingers, no matter if you’ve seen it a mile away. <br><br>Ronald, I know you’re disappointed. I was too, and I still am. But you can take solace in the fact that although you didn’t win the presidency, you have years of public service to reflect back upon and more to come ahead. The vision you and I had for America might be diminished, but our work for it is still not yet finished.<br><br>Anyway, I know this probably won’t mean much, but Barry and I thought of getting together in D.C. this Saturday to have a few drinks—a toast, of course, to our duly elected President.<br><br>We could always do with another loser.<br><br>With kindest regards, I am</p><br><p style=padding:0.25em;margin:0.25em;text-align:center;font-family:courier;color:Navy>Sincerely yours,</p><img src='https://i.imgur.com/Z6tkCaU.png' /><p></p><p style=padding:0.25em;margin:0.25em;text-align:center;font-family:courier;color:Navy>George McGovern</p><br><p style=padding:0.25em;margin:0.25em;font-family:courier;color:Navy>The Honorable<br>Ronald Wilson Reagan<br>Rancho del Cielo<br>Goleta, California 93117</p></td></tr></tbody></table><p style='margin-left: 0em;margin-right: 0em;'></p></td></tr></tbody></table></div><p></span>"
+} if (orderID[0] == 93 && aa[0].electoral_votes >= 270) { 
+    if (used != true) {
+        setInterval(function () {
+            used = true;
+            imgg = document.getElementsByClassName("person_image")[0];
+            if (imgg != null) {
+                imgg.src = "https://i.imgur.com/pjf1HIU.png";
+            }
+        }, 100);
+    }
+    return "<h3><i>November 17, 1978</i></h3><p><i>Here is a bulletin from CBS News.<p>A few minutes ago, at the Saint Paul Hotel, multiple shots were fired at President-Elect McCarthy’s entourage as he exited the building. The suspect, who at this moment has not been identified, was immediately apprehended by police at the scene.<p>Witnesses report that President-Elect McCarthy, as well as two of his aides, have been injured by this shooting. CBS News has not received reports on whether these shots were fatal.<p>We will continue to update on this story as it unfolds.</i>"
+} if (aa[0].electoral_votes < 270 && aa[1].electoral_votes < 270 && aa[2].electoral_votes < 270) {
+    return "<h3>How Did We Get Here?</h3><p>Somehow, whether it be the machinations of McCarthy or terrible luck, no candidate has reached a majority in the electoral college. Although the House is dominated by Democrats, you’ll need to manifest every ounce of your political acumen to keep the more moderate and conservative wings of your party on board. Prepare to sacrifice the more radical parts of your agenda, Governor, it’s going to be a tough battle."
+} else if (quickstats[0] < 3) {
+    if (used != true) {
+        setInterval(function () {
+            used = true;
+            imgg = document.getElementsByClassName("person_image")[0];
+            if (imgg != null) {
+                imgg.src = "https://i.imgur.com/sSlnXTl.png";
+            }
+        }, 100);
+    }
+    return "<h3><i>December 1976, Washington D.C.</i></h3><p>It was a cold day in D.C. While other congressmen spent the holiday season planning on what to do after an unforeseen retirement, Senator Church tore through his office like a man possessed. He tried to find some file proving that the election a month prior couldn’t have been legitimate. Maybe the Committee had just overlooked something. Maybe there was something that he stashed away without a second glance. Unless Ford was Washington or Monroe incarnate, this shouldn’t have happened despite all of Reagan’s missteps during the campaign trail.<p>As he ripped open another one of his desk cabinets, something stood out to him. It was a memo from the late J. Edgar Hoover about something relating to a “spacebar” and a “disastrous self-sabotage of radical and dangerous candidates to the office of the Presidency.” Quickly skimming through the document, the Idahoan grew ever more frozen in terror as he realized the extent of this criminal conspiracy against both the Party and Reagan. It seems that Reagan’s terrible defeat was, strangely, not completely his own doing."
+} else if (quickstats[0] > 3 && quickstats[0] < 17) {
+    return "<h3>A Party in Shambles</h3><p>How could this happen? In spite of Watergate and multiple Fordisms, somehow you performed worse than McGovern. Your political career is, suffice it to say, completely over. We can only wish for you, your campaign advisors, and your aides a nice and long retirement. And your platform? At most, you can pray that some greatly watered-down version is adopted by whoever’s nominated in the next few quadrennial cycles. The next few years, or even decades, will have progressives slowly trying to reestablish themselves within the party and national scene.<p>As for the Democratic Party, there’s no way in hell it'll let you back on the national stage, with it lumbering in limbo after two particularly humiliating back-to-back losses. Down-ballot, dozens of congressmen are out of a job even if they tried to distance themselves from you. As the few remaining races are called, it appears that the Republicans are likely to wield the Speaker’s gavel and have made the Senate just that much closer. Maybe some unifying moderate hero will bring the party back from embarrassment, but that’s four years from now. Let’s just hope that President Ford will be able to keep America solvent as it moves away from the tumult of the last few years."
+} else if (quickstats[0] > 17 && quickstats[0] < 140) {
+    return "<h3>A Tragic Defeat</h3><p>In spite of everything that happened on the campaign trail, you lost. At the very least, you can take solace in the fact that you performed better than McGovern four years ago. Yet, regardless of that, it’s over. You tried your best, and it seems the American people have soundly rejected your ideas. As Ford’s campaign celebrates his landslide victory, the audience at your headquarters is silent and disappointed. You give a concession speech that can be described as rather plain before leaving the stage to meek applause. Your political career is over. And who knows what’ll happen to your platform? Maybe it’ll be gutted and thrown into the wastebasket of history. Or for all we know, decades from now, it’ll become party dogma. It’s hard to say.<p>In the meantime, the Democratic Party is still wandering in darkness. All the gains from 1974 has been all for naught, as your loss had led many congresspeople to have a very untimely retirement. On the national stage, the party is looking for someone that will win them back the Oval Office. Senator Church perhaps? Or maybe Ted Kennedy? Who knows what 1980 will have in store. For now, the American public will surely be keen to see how President Ford fares as he moves America away from its national nightmares."
+} else if (quickstats[0] >= 140 && quickstats[0] < 269) {
+  return "<h3>An Almost Expected Loss</h3><p>Even with your high polling at the beginning of the campaign, President Ford has pulled through. But it’s not all terrible. Despite some of your controversial policies and gaffes, you’ve managed to carry a few Electoral College-heavy states in your column, proving that there is some part of the electorate that is warm to your agenda. You give a rather optimistic concession speech at your campaign headquarters, something par for the course, to raucous applause. With the ‘80 campaign in the far future, it seems that a nice retirement is in order unless, of course, you can somehow find it in yourself to run again.<p>After this election, the Democratic Party is, while still massively disappointed, buoyant for now. Maybe they can pick some mainstream liberal or moderate to win back the White House, but with two progressives nominated back-to-back and your inroads, the primary season is going to be competitive to say the least. With this eventful campaign season coming to a close, President Ford will have a busy four years. Let’s hope America can look forward, heading into the 1980s stronger than ever before."
+} else if (quickstats[0] >= 270 && quickstats[0] < 310) {
+    return "<h3>Making America Great!</h3><p>Congratulations Governor! From the Silver Screen to Sacramento, you’ve managed to narrowly win the White House. The Ford campaign might be asking for some recounts in some razor-thin states, but you’ve still won nonetheless with the American public on your side. Be prepared to haggle and be needled on your policies from a wide ideological coalition, but that’s weeks from now. Savor your victory as much as you can.<p>As you wind down from your victory speech, it’s not too early to plan a domestic policy package with a catchy moniker. You’ll need a lot of help against a tepid to vitriolic Congress, but maybe you’ll at least be able to fulfill the late President Truman’s universal healthcare dream or clean up the pollution in the metro areas.<p>Whatever the case may be, here’s to you Ron! If everything goes well, 1980 will be nothing short of a cakewalk."
+} else if (quickstats[0] >= 310 && quickstats[0] < 375) {
+    return "<h3>For the Union Makes Us Strong!</h3><p>Congratulations Governor! From the Silver Screen to Sacramento, you’ve now clasped the White House. As First Lady Betty Ford bitterly grins as she gives the President’s concession speech, your election headquarters is roaring with your devoted supporters. All the while, your phone is ringing off the hook with everyone from Senator McGovern to Vice President Rockefeller congratulating you on your comfortable victory. Sure, come January, politics will continue as usual, but tonight, just bask in your victory.<p>With this mandate in tow, the American people and (most) Democrats are expecting you to make true to your promises during the campaign trail. Start drawing up nicknames for your domestic agenda and be ready to market it to the American people. Congress will most certainly be unfriendly to your policies, but you’ve accepted that the moment you got into politics, didn’t you? Get ready to meet with senators and representatives to pass civil rights, healthcare, and environmental legislation.<p>Here’s to you, Ron! If you can carry this momentum throughout your term, I pity whomever the GOP fields in 1980."
+} else if (quickstats[0] >= 375 && quickstats[0] < 538) {
+    return "<h3>An American Dream for You and Me!</h3><p>Congratulations Governor! From the Silver Screen to Sacramento, you’ve now won the White House with what is a landslide victory. As First Lady Betty Ford bitterly huffs out the President’s concession speech, your election headquarters is flooding with confetti and cheers from your roaring supporters. All the while, your phone is ringing off the hook with everyone from Senator McGovern to Vice President Rockefeller congratulating you on your massive victory. Some conservatives are already publishing op-eds claiming that the Red Terror has seized 1600 Pennsylvania Avenue, with some even declaring that Soviet collusion was involved, but all your aides just scoff and snark at their remarks. Tonight will surely be one for the history books.<p>As you prepare to move into the White House with your large mandate from the American people, a few hundred soon-to-be White House staffers, aides, and policy-drafters are waiting in the wings. Ready your domestic agenda and a suave name for it. Congress will most certainly be unhappy with your ambitious ideas, but your victory tonight has kicked Senate and House Republicans to the curb and sent chills through the more reluctant members of your party, perhaps convincing them into voting in line from healthcare to unions to the environment if they want to have jobs come ‘78.<p>Here’s to you, Ron! Whatever sacrificial lamb is nominated in 1980, they’ll surely be sent packing."
+} else if (quickstats[0] >= 538) {
+    return "<h3>Social Democracy with Reaganist Characteristics</h3><p>As Reagan prepared to give his victory speech to a crowd of thousands, he couldn’t help but reminisce over the past few years. So much had changed, yet not enough to make a significant difference. Millions of Americans sat in poverty without a proper helping hand, whose only use was to die in some war by some vulgar Texan or some Californian crook, but not now.<p>He recalled stumping for Presidents Roosevelt and Truman in their election bids during his old radio days. Whether it be a scion of a powerful political dynasty or just a rural farm boy from the middle of nowhere, anyone could wield one of the most powerful offices in the world. And now, he would wield that office with such a mandate in tow that neither ever had. In spite of everything, the people of California, the Democratic Party, and now the American people had indicated their confidence in him with just about unanimous approval.<p>As Reagan stepped up to the podium with uproarious applause, he laid out his agenda in full, speaking with the grace and charisma that had carried him this far. Finally, the decades-long change that America so desperately needed has arrived, and that coalition of gutless liberals, tepid moderates, and embittered conservatives could do nothing but watch."
+} else {
+  return "<h3>Please leave a message after the beep</h3><p>Beep"
+}
+
+
+
+
+
+
+
+
+
