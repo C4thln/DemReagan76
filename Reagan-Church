@@ -7565,7 +7565,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 8001,
             "candidate": 91,
             "affected_candidate": 91,
-            "global_multiplier": 0.002
+            "global_multiplier": -0.001
         }
     },
     {
@@ -7605,7 +7605,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 8003,
             "candidate": 91,
             "affected_candidate": 91,
-            "global_multiplier": -0.001
+            "global_multiplier": -0.005
         }
     },
     {
@@ -10291,7 +10291,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 8001,
             "candidate": 91,
-            "answer_feedback": "Being about as mainstream as it gets in the Democratic Party, Mondale will be able to rally people from all corners of the party to your side."
+            "answer_feedback": "Church isn’t exactly the most popular guy with party leaders, and they still aren’t too enthusiastic about your campaign. Oh well…"
         }
     },
     {
