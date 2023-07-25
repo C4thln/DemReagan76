@@ -55,7 +55,7 @@ document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_st
 $(".container")[0].style.backgroundColor = "#1d3148"
 $("#game_window")[0].style.backgroundColor = "#801900"
 document.body.background = "https://cdn.discordapp.com/attachments/823843746385756214/1085618184910020658/Ronald-Reagan.png"
-bannerlist=["https://cdn.discordapp.com/attachments/1087397276156170303/1100096700456112208/bannerr.png", "https://cdn.discordapp.com/attachments/1087397276156170303/1131976257320534106/ron76.png", "https://cdn.discordapp.com/attachments/1087397276156170303/1131348553273462835/jerry76.png"]
+bannerlist=["https://cdn.discordapp.com/attachments/1087397276156170303/1100096700456112208/bannerr.png", "https://cdn.discordapp.com/attachments/1087397276156170303/1133523464867811349/ron76.png", "https://cdn.discordapp.com/attachments/1087397276156170303/1131348553273462835/jerry76.png"]
 document.getElementById("header").src = bannerlist[Math.floor((Math.random() * bannerlist.length))]
 
 
