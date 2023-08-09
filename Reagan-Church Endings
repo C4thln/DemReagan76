@@ -13,7 +13,7 @@ https://creativecommons.org/licenses/by/4.0/legalcode
 By using, distributing, or modifying this mod, you agree to abide by the terms and conditions of both the Apache License 2.0 and the Creative Commons Attribution 4.0 International (CC BY 4.0) license.
 */
 
-orderID = [aa[0].candidate, aa[1].candidate, aa[2].candidate];
+    orderID = [aa[0].candidate, aa[1].candidate, aa[2].candidate];
     playerID = campaignTrail_temp.candidate_id;
     playerEV = quickstats[0]
 //out = "win", "loss", or "tie" for your candidate
@@ -32,7 +32,7 @@ if (campaignTrail_temp.player_answers[26] == 28004 && quickstats[0] < 270) {
           }
       }, 100);
   }
-    return "<h3></h3><audio loop='true' autoplay='true' src='https://s2.fileditch.ch/dfGsldQykjcnWRQeYnVz.mp3' style='display:none;'></audio>"
+    return "<h3></h3><audio loop='true' autoplay='true' src='https://cdn.discordapp.com/attachments/306938131335086090/1138684914515050647/Aint_I_Right.mp3' style='display:none;'></audio>"
 } if (campaignTrail_temp.player_answers[26] == 28004 && quickstats[0] >= 270) {
   if (used != true) {
       setInterval(function () {
@@ -81,7 +81,7 @@ if (campaignTrail_temp.player_answers[26] == 28004 && quickstats[0] < 270) {
         }, 100);
     }
     return "<h3><i>December 1976, Washington D.C.</i></h3><p>It was a cold day in D.C. While other congressmen spent the holiday season planning on what to do after an unforeseen retirement, Senator Church tore through his office like a man possessed. He tried to find some file proving that the election a month prior couldn’t have been legitimate. Maybe the Committee had just overlooked something. Maybe there was something that he stashed away without a second glance. Unless Ford was Washington or Monroe incarnate, this shouldn’t have happened despite all of Reagan’s missteps during the campaign trail.<p>As he ripped open another one of his desk cabinets, something stood out to him. It was a memo from the late J. Edgar Hoover about something relating to a “spacebar” and a “disastrous self-sabotage of radical and dangerous candidates to the office of the Presidency.” Quickly skimming through the document, the Idahoan grew ever more frozen in terror as he realized the extent of this criminal conspiracy against both the Party and Reagan. It seems that Reagan’s terrible defeat was, strangely, not completely his own doing."
-} else if (quickstats[0] > 3 && quickstats[0] < 17) {
+} else if (quickstats[0] >= 3 && quickstats[0] < 17) {
     return "<h3>A Party in Shambles</h3><p>How could this happen? In spite of Watergate and multiple Fordisms, somehow you performed worse than McGovern. Your political career is, suffice it to say, completely over. We can only wish for you, your campaign advisors, and your aides a nice and long retirement. And your platform? At most, you can pray that some greatly watered-down version is adopted by whoever’s nominated in the next few quadrennial cycles. The next few years, or even decades, will have progressives slowly trying to reestablish themselves within the party and national scene.<p>As for the Democratic Party, there’s no way in hell it'll let you back on the national stage, with it lumbering in limbo after two particularly humiliating back-to-back losses. Down-ballot, dozens of congressmen are out of a job even if they tried to distance themselves from you. As the few remaining races are called, it appears that the Republicans are likely to wield the Speaker’s gavel and have made the Senate just that much closer. Maybe some unifying moderate hero will bring the party back from embarrassment, but that’s four years from now. Let’s just hope that President Ford will be able to keep America solvent as it moves away from the tumult of the last few years."
 } else if (quickstats[0] > 17 && quickstats[0] < 140) {
     return "<h3>A Tragic Defeat</h3><p>In spite of everything that happened on the campaign trail, you lost. At the very least, you can take solace in the fact that you performed better than McGovern four years ago. Yet, regardless of that, it’s over. You tried your best, and it seems the American people have soundly rejected your ideas. As Ford’s campaign celebrates his landslide victory, the audience at your headquarters is silent and disappointed. You give a concession speech that can be described as rather plain before leaving the stage to meek applause. Your political career is over. And who knows what’ll happen to your platform? Maybe it’ll be gutted and thrown into the wastebasket of history. Or for all we know, decades from now, it’ll become party dogma. It’s hard to say.<p>In the meantime, the Democratic Party is still wandering in darkness. All the gains from 1974 has been all for naught, as your loss had led many congresspeople to have a very untimely retirement. On the national stage, the party is looking for someone that will win them back the Oval Office. Senator Church perhaps? Or maybe Ted Kennedy? Who knows what 1980 will have in store. For now, the American public will surely be keen to see how President Ford fares as he moves America away from its national nightmares."
