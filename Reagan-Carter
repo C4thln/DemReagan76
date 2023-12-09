@@ -6821,7 +6821,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 28004,
             "candidate": 91,
             "affected_candidate": 92,
-            "global_multiplier": 4
+            "global_multiplier": 6
         }
     },
     {
@@ -7641,7 +7641,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 14003,
             "candidate": 91,
             "affected_candidate": 91,
-            "global_multiplier": -0.05
+            "global_multiplier": -0.045
         }
     },
     {
@@ -8732,8 +8732,8 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 33092,
         "fields": {
             "answer": 24002,
-            "issue": 34,
-            "issue_score": -0.25,
+            "issue": 33,
+            "issue_score": 0.25,
             "issue_importance": 1
         }
     },
@@ -10576,6 +10576,17 @@ campaignTrail_temp.answer_score_state_json = [
             "affected_candidate": 91,
             "state_multiplier": 0.01
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 34203,
+        "fields": {
+            "answer": 9004,
+            "state": 241,
+            "candidate": 91,
+            "affected_candidate": 91,
+            "state_multiplier": -0.01
+        }
     }
 ]
 
@@ -10820,7 +10831,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 9004,
             "candidate": 91,
-            "answer_feedback": "Come on, man! You chose him, after all. Commit to it!"
+            "answer_feedback": "Many are disappointed at the snubbing of your running mate."
         }
     },
     {
@@ -11081,7 +11092,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 17003,
             "candidate": 91,
-            "answer_feedback": "<i>Great</i> answer, Ron. Now you'll be seen as the candidate of kooks and hippies for the rest of the campaign season. At the very least, the base likes it?"
+            "answer_feedback": "Oh, yeah. <i>Great</i> answer, Ron. Now you'll be seen as the candidate of kooks and hippies for the rest of the campaign season. At the very least, the base likes it?"
         }
     },
     {
