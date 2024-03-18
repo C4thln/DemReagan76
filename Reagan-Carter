@@ -217,7 +217,7 @@ campaignTrail_temp.questions_json = [
         "pk": 24000,
         "fields": {
             "priority": 0,
-            "description": "Union voters have been turning out in surprisingly low numbers in support of your campaign, particularly viewing your running mate with suspicion. What will you do to inspire more enthusiasm among this key demographic?",
+            "description": "Union voters are an integral part of the Democratic coalition, and they have been turning out for you in large numbers. Carter, however, provides your campaign with an opportunity to expand your appeal to other demographics. Will you pick up on this opportunity?",
             "likelihood": 1
         }
     },
@@ -967,7 +967,7 @@ campaignTrail_temp.answers_json = [
         "pk": 24001,
         "fields": {
             "question": 24000,
-            "description": "Let’s do some appearances with George Meany and Cesar Chavez. With leadership in line, the rank and file will follow along."
+            "description": "I don't see any need. In fact, let’s do some appearances with George Meany and Cesar Chavez. That'll show the voters where I stand."
         }
     },
     {
@@ -975,7 +975,7 @@ campaignTrail_temp.answers_json = [
         "pk": 24002,
         "fields": {
             "question": 24000,
-            "description": "I was a union man myself so I understand the concerns of unions. When I become President, I will repeal Taft-Hartley and restore the full power of labor unions to this country."
+            "description": "I was a union man myself and I will fight for the interests of unions. When I become President, I will repeal Taft-Hartley and restore the full power of labor unions to this country."
         }
     },
     {
@@ -983,7 +983,7 @@ campaignTrail_temp.answers_json = [
         "pk": 24003,
         "fields": {
             "question": 24000,
-            "description": "We don’t need to do anything. I’m sure they’ll come to us in due time. We’ll instead focus on other demographics that have been shifting to the Republicans."
+            "description": "That's not a bad idea actually. Union voters are already in our column. Jimmy can smooth things over with the right-to-work crowd."
         }
     },
     {
@@ -991,7 +991,7 @@ campaignTrail_temp.answers_json = [
         "pk": 24004,
         "fields": {
             "question": 24000,
-            "description": "If you can’t decide whether to vote for me or Ford, then you ain’t a union voter and I don’t want your support."
+            "description": "Yes. Let's tone down the union rhetoric and soften up to the South and right-to-work. These union boys will vote for me anyways."
         }
     },
     {
@@ -7491,7 +7491,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 24002,
             "candidate": 91,
             "affected_candidate": 91,
-            "global_multiplier": -0.005
+            "global_multiplier": -0.006
         }
     },
     {
@@ -9286,6 +9286,26 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue_score": -0.1,
             "issue_importance": 0.5
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 34205,
+        "fields": {
+            "answer": 24003,
+            "issue": 33,
+            "issue_score": -0.1,
+            "issue_importance": 0.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 34210,
+        "fields": {
+            "answer": 24004,
+            "issue": 33,
+            "issue_score": -0.25,
+            "issue_importance": 1
+        }
     }
 ]
 
@@ -9958,7 +9978,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 266,
             "candidate": 91,
             "affected_candidate": 91,
-            "state_multiplier": -0.003
+            "state_multiplier": -0.008
         }
     },
     {
@@ -9969,7 +9989,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 253,
             "candidate": 91,
             "affected_candidate": 91,
-            "state_multiplier": 0.01
+            "state_multiplier": 0.004
         }
     },
     {
@@ -9991,7 +10011,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 281,
             "candidate": 91,
             "affected_candidate": 91,
-            "state_multiplier": -0.004
+            "state_multiplier": -0.006
         }
     },
     {
@@ -10002,7 +10022,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 236,
             "candidate": 91,
             "affected_candidate": 91,
-            "state_multiplier": 0.01
+            "state_multiplier": 0.004
         }
     },
     {
@@ -10013,7 +10033,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 281,
             "candidate": 91,
             "affected_candidate": 91,
-            "state_multiplier": 0.014
+            "state_multiplier": 0.007
         }
     },
     {
@@ -10068,7 +10088,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 266,
             "candidate": 91,
             "affected_candidate": 91,
-            "state_multiplier": 0.012
+            "state_multiplier": 0.008
         }
     },
     {
@@ -10101,7 +10121,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 253,
             "candidate": 91,
             "affected_candidate": 91,
-            "state_multiplier": -0.004
+            "state_multiplier": -0.003
         }
     },
     {
@@ -10112,7 +10132,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 266,
             "candidate": 91,
             "affected_candidate": 91,
-            "state_multiplier": -0.003
+            "state_multiplier": -0.002
         }
     },
     {
@@ -10123,7 +10143,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 244,
             "candidate": 91,
             "affected_candidate": 91,
-            "state_multiplier": -0.005
+            "state_multiplier": -0.004
         }
     },
     {
@@ -10486,7 +10506,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 241,
             "candidate": 91,
             "affected_candidate": 91,
-            "state_multiplier": 0.006
+            "state_multiplier": 0.004
         }
     },
     {
@@ -10586,6 +10606,61 @@ campaignTrail_temp.answer_score_state_json = [
             "candidate": 91,
             "affected_candidate": 91,
             "state_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 34204,
+        "fields": {
+            "answer": 24003,
+            "state": 273,
+            "candidate": 91,
+            "affected_candidate": 91,
+            "state_multiplier": 0.002
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 34206,
+        "fields": {
+            "answer": 24004,
+            "state": 232,
+            "candidate": 91,
+            "affected_candidate": 91,
+            "state_multiplier": 0.006
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 34208,
+        "fields": {
+            "answer": 24004,
+            "state": 241,
+            "candidate": 91,
+            "affected_candidate": 91,
+            "state_multiplier": 0.007
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 34209,
+        "fields": {
+            "answer": 24004,
+            "state": 274,
+            "candidate": 91,
+            "affected_candidate": 91,
+            "state_multiplier": 0.007
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 34211,
+        "fields": {
+            "answer": 24004,
+            "state": 273,
+            "candidate": 91,
+            "affected_candidate": 91,
+            "state_multiplier": 0.004
         }
     }
 ]
@@ -11326,7 +11401,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 24001,
             "candidate": 91,
-            "answer_feedback": "Many union voters feel as though you're holding back here, considering your union past, but it's better than nothing."
+            "answer_feedback": "This won't change public opinion too much, but it's good to remind union voters who their man is."
         }
     },
     {
@@ -11335,7 +11410,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 24002,
             "candidate": 91,
-            "answer_feedback": "You’re making good use of your past with the Screen Actors Guild here. Prepare for some backlash though, as Taft-Hartley is pretty popular in the rest of the country, and Carter has expressed some objections of his own with this position."
+            "answer_feedback": "You’re making good use of your past here, and union voters are ecstatic. Prepare for some backlash though, as Taft-Hartley is pretty popular in the rest of the country, and Carter has expressed some objections of his own with this position."
         }
     },
     {
@@ -11344,7 +11419,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 24003,
             "candidate": 91,
-            "answer_feedback": "This further alienates union voters, but Carter could perhaps help you make up for it in the South."
+            "answer_feedback": "This move alienates union voters slightly, but Carter could perhaps help you make up for it in a few Southern states."
         }
     },
     {
@@ -11353,7 +11428,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 24004,
             "candidate": 91,
-            "answer_feedback": "Giving the finger to people because they won’t vote for you isn’t exactly a good look, Ron."
+            "answer_feedback": "This will anger labor. A lot. <i>Maybe</i> you can make up for it in the South?"
         }
     },
     {
@@ -11727,8 +11802,8 @@ campaignTrail_temp.answer_feedback_json = [
     }
 ]
 
-campaignTrail_temp.candidate_image_url = "https://cdn.discordapp.com/attachments/1087397276156170303/1137756384826494996/image.png";
-campaignTrail_temp.running_mate_image_url = "https://cdn.discordapp.com/attachments/1087397276156170303/1138573662686027786/image.png";
+campaignTrail_temp.candidate_image_url = "https://cdn.discordapp.com/attachments/1087397276156170303/1219359549530701864/image.png?ex=660b0413&is=65f88f13&hm=52b6f670e9158d43a9505051044510604d0483d9b0ab7a64d8cce375d51493c8&";
+campaignTrail_temp.running_mate_image_url = "https://cdn.discordapp.com/attachments/1087397276156170303/1219359249239638117/image.png?ex=660b03cb&is=65f88ecb&hm=aff58d0a64aa52bbe2772f5308edf49836a9585468ba2c6f8baae49caafc78fb&";
 campaignTrail_temp.candidate_last_name = "Reagan";
 campaignTrail_temp.running_mate_last_name = "Carter";
 
@@ -11738,8 +11813,8 @@ campaignTrail_temp.jet_data = [{
     "cyoa_enabled": false,
     "banner_data": {
         "canName": "Reagan",
-        "canImage": "https://cdn.discordapp.com/attachments/1087397276156170303/1137756384826494996/image.png",
-        "runImage": "https://cdn.discordapp.com/attachments/1087397276156170303/1138573662686027786/image.png",
+        "canImage": "https://cdn.discordapp.com/attachments/1087397276156170303/1219359549530701864/image.png?ex=660b0413&is=65f88f13&hm=52b6f670e9158d43a9505051044510604d0483d9b0ab7a64d8cce375d51493c8&",
+        "runImage": "https://cdn.discordapp.com/attachments/1087397276156170303/1219359249239638117/image.png?ex=660b03cb&is=65f88ecb&hm=aff58d0a64aa52bbe2772f5308edf49836a9585468ba2c6f8baae49caafc78fb&",
         "runName": "Carter"
     },
     "banner_enabled": true,
