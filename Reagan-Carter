@@ -9989,7 +9989,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 253,
             "candidate": 91,
             "affected_candidate": 91,
-            "state_multiplier": 0.004
+            "state_multiplier": 0.002
         }
     },
     {
@@ -10022,7 +10022,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 236,
             "candidate": 91,
             "affected_candidate": 91,
-            "state_multiplier": 0.004
+            "state_multiplier": 0.001
         }
     },
     {
@@ -10033,7 +10033,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 281,
             "candidate": 91,
             "affected_candidate": 91,
-            "state_multiplier": 0.007
+            "state_multiplier": 0.003
         }
     },
     {
@@ -10088,7 +10088,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 266,
             "candidate": 91,
             "affected_candidate": 91,
-            "state_multiplier": 0.008
+            "state_multiplier": 0.002
         }
     },
     {
@@ -10771,7 +10771,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 4004,
             "candidate": 91,
-            "answer_feedback": "Your own supporters at the convention are overjoyed, and your speech draws plenty of comparisons to your “A Time For Choosing” speech you held four years ago. Moderates however, are left disgruntled and uncomfortable."
+            "answer_feedback": "Your own supporters at the convention are overjoyed, and you've inspired optimism and hope among your base. Moderates however, are left disgruntled and uncomfortable."
         }
     },
     {
@@ -11802,8 +11802,8 @@ campaignTrail_temp.answer_feedback_json = [
     }
 ]
 
-campaignTrail_temp.candidate_image_url = "https://cdn.discordapp.com/attachments/1087397276156170303/1219359549530701864/image.png?ex=660b0413&is=65f88f13&hm=52b6f670e9158d43a9505051044510604d0483d9b0ab7a64d8cce375d51493c8&";
-campaignTrail_temp.running_mate_image_url = "https://cdn.discordapp.com/attachments/1087397276156170303/1219359249239638117/image.png?ex=660b03cb&is=65f88ecb&hm=aff58d0a64aa52bbe2772f5308edf49836a9585468ba2c6f8baae49caafc78fb&";
+campaignTrail_temp.candidate_image_url = "https://i.imgur.com/0X4zSbQ.png";
+campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/yFOqBTv.png";
 campaignTrail_temp.candidate_last_name = "Reagan";
 campaignTrail_temp.running_mate_last_name = "Carter";
 
@@ -11813,8 +11813,8 @@ campaignTrail_temp.jet_data = [{
     "cyoa_enabled": false,
     "banner_data": {
         "canName": "Reagan",
-        "canImage": "https://cdn.discordapp.com/attachments/1087397276156170303/1219359549530701864/image.png?ex=660b0413&is=65f88f13&hm=52b6f670e9158d43a9505051044510604d0483d9b0ab7a64d8cce375d51493c8&",
-        "runImage": "https://cdn.discordapp.com/attachments/1087397276156170303/1219359249239638117/image.png?ex=660b03cb&is=65f88ecb&hm=aff58d0a64aa52bbe2772f5308edf49836a9585468ba2c6f8baae49caafc78fb&",
+        "canImage": "https://i.imgur.com/0X4zSbQ.png",
+        "runImage": "https://i.imgur.com/yFOqBTv.png",
         "runName": "Carter"
     },
     "banner_enabled": true,
