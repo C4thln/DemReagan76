@@ -310,6 +310,15 @@ campaignTrail_temp.questions_json = [
             "description": "Well Ron, election day will soon be upon us. Where would you like the final few days of your campaign before the big day America's fate will be sealed?",
             "likelihood": 1
         }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 34223,
+        "fields": {
+            "priority": 0,
+            "description": "Your comments have thrown everything into the garbage. Like literally what? Why would you say that?! Are you stupid?",
+            "likelihood": 1
+        }
     }
 ]
 
@@ -1280,6 +1289,14 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 14000,
             "description": "The only way to win the Cold War is if we remain vigilant against the Soviets. Cutting our defense budget would only serve to undermine our position in the world."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 34224,
+        "fields": {
+            "question": 34223,
+            "description": "yeah"
         }
     }
 ]
@@ -10773,7 +10790,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 4004,
             "candidate": 91,
-            "answer_feedback": "Your own supporters at the convention are overjoyed, and your speech draws plenty of comparisons to your “A Time For Choosing” speech you held four years ago. Moderates however, are left disgruntled and uncomfortable."
+            "answer_feedback": "Your own supporters at the convention are overjoyed, and you've inspired optimism and hope among your base. Moderates however, are left disgruntled and uncomfortable."
         }
     },
     {
@@ -11430,7 +11447,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 24004,
             "candidate": 91,
-            "answer_feedback": "You'll alienate the South further with this answer, but some do agree it's time for the party to let go of the South, and at this point you're going to need all the help you can get elsewhere."
+            "answer_feedback": "You'll alienate the South further, but you're going to need all the help you can get elsewhere."
         }
     },
     {
@@ -11813,8 +11830,8 @@ campaignTrail_temp.answer_feedback_json = [
     }
 ]
 
-campaignTrail_temp.candidate_image_url = "https://cdn.discordapp.com/attachments/1087397276156170303/1137756384826494996/image.png";
-campaignTrail_temp.running_mate_image_url = "https://cdn.discordapp.com/attachments/1087397276156170303/1138596354185232482/image.png?ex=658215fc&is=656fa0fc&hm=167dde8ba264b6f740ba9be6cc5a55f4c9aab7224a641437a261962a90690f01&";
+campaignTrail_temp.candidate_image_url = "https://i.imgur.com/0X4zSbQ.png";
+campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/GPxjMcF.png";
 campaignTrail_temp.candidate_last_name = "Reagan";
 campaignTrail_temp.running_mate_last_name = "Mondale";
 
@@ -11824,8 +11841,8 @@ campaignTrail_temp.jet_data = [{
     "cyoa_enabled": false,
     "banner_data": {
         "canName": "Reagan",
-        "canImage": "https://cdn.discordapp.com/attachments/1087397276156170303/1137756384826494996/image.png",
-        "runImage": "https://cdn.discordapp.com/attachments/1087397276156170303/1138596354185232482/image.png?ex=658215fc&is=656fa0fc&hm=167dde8ba264b6f740ba9be6cc5a55f4c9aab7224a641437a261962a90690f01&",
+        "canImage": "https://i.imgur.com/0X4zSbQ.png",
+        "runImage": "https://i.imgur.com/GPxjMcF.png",
         "runName": "Mondale"
     },
     "banner_enabled": true,
@@ -11835,7 +11852,13 @@ campaignTrail_temp.jet_data = [{
         "93": "Gene",
         "94": "Other"
     },
-    "cyoa_data": {},
+    "cyoa_data": {
+        "1703633917768": {
+            "answer": "28004",
+            "question": "34223",
+            "id": 1703633917768
+        }
+    },
     "endings_enabled": false,
     "ending_data": {},
     "mapping_enabled": false,
