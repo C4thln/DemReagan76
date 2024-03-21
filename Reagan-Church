@@ -1,7 +1,7 @@
 /*
  
 Mod Title: DemReagan '76
-Mod Author: u/cathleen_xoxo
+Mod Author: cthln
 Mod Version: 1.0
 Mod Description: Alternate history scenario for the 1976 election between a Democratic Reagan and President Ford
 Coding License: Apache License 2.0
@@ -308,15 +308,6 @@ campaignTrail_temp.questions_json = [
         "fields": {
             "priority": 1,
             "description": "Well Ron, election day will soon be upon us. Where would you like the final few days of your campaign before the big day America's fate will be sealed?",
-            "likelihood": 1
-        }
-    },
-    {
-        "model": "campaign_trail.question",
-        "pk": 34223,
-        "fields": {
-            "priority": 0,
-            "description": "Your comments have thrown everything into the garbage. Like literally what? Why would you say that?! Are you stupid?",
             "likelihood": 1
         }
     }
@@ -912,7 +903,7 @@ campaignTrail_temp.answers_json = [
         "pk": 21003,
         "fields": {
             "question": 21000,
-            "description": "We’ve been dropping in the polls as of late, so I’ll focus on campaigning in the Western states, specifically along the coast. I can really solidify some support there while Ford’s momentum stalls."
+            "description": "We’ve been dropping in the polls as of late, so I’ll focus on campaigning in the West, and specifically the mountain states. Frank can help me really lock the region down while Ford’s momentum stalls."
         }
     },
     {
@@ -1289,14 +1280,6 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 14000,
             "description": "The only way to win the Cold War is if we remain vigilant against the Soviets. Cutting our defense budget would only serve to undermine our position in the world."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 34224,
-        "fields": {
-            "question": 34223,
-            "description": "yeah"
         }
     }
 ]
@@ -9742,7 +9725,7 @@ campaignTrail_temp.answer_score_state_json = [
         "pk": 33137,
         "fields": {
             "answer": 21003,
-            "state": 236,
+            "state": 243,
             "candidate": 91,
             "affected_candidate": 91,
             "state_multiplier": 0.01
@@ -9753,7 +9736,7 @@ campaignTrail_temp.answer_score_state_json = [
         "pk": 33138,
         "fields": {
             "answer": 21003,
-            "state": 259,
+            "state": 257,
             "candidate": 91,
             "affected_candidate": 91,
             "state_multiplier": 0.009
@@ -9764,7 +9747,7 @@ campaignTrail_temp.answer_score_state_json = [
         "pk": 33139,
         "fields": {
             "answer": 21003,
-            "state": 262,
+            "state": 272,
             "candidate": 91,
             "affected_candidate": 91,
             "state_multiplier": 0.012
@@ -9786,7 +9769,7 @@ campaignTrail_temp.answer_score_state_json = [
         "pk": 33141,
         "fields": {
             "answer": 21003,
-            "state": 268,
+            "state": 282,
             "candidate": 91,
             "affected_candidate": 91,
             "state_multiplier": 0.009
@@ -10460,7 +10443,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 235,
             "candidate": 91,
             "affected_candidate": 91,
-            "state_multiplier": 0.011
+            "state_multiplier": 0.009
         }
     },
     {
@@ -10471,7 +10454,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 273,
             "candidate": 91,
             "affected_candidate": 91,
-            "state_multiplier": 0.01
+            "state_multiplier": 0.008
         }
     },
     {
@@ -10482,7 +10465,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 241,
             "candidate": 91,
             "affected_candidate": 91,
-            "state_multiplier": 0.012
+            "state_multiplier": 0.01
         }
     },
     {
@@ -11298,7 +11281,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 21003,
             "candidate": 91,
-            "answer_feedback": "As expected, this will help in the West, though some advisors question this, believing you’ve already got most of these states locked up, and Ford will continue to benefit from the economic recovery for a while."
+            "answer_feedback": "As expected, this will help in the West, and while his home state of Idaho is probably out of your grasp, Church could perhaps help flip some others. Regardless, Ford will continue to benefit from the economic recovery for a while."
         }
     },
     {
@@ -11784,7 +11767,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 34180,
             "candidate": 91,
-            "answer_feedback": "Ford will continue to benefit from the economic recovery for a while, but you do see a rise in the polls in many Southern states. Having Jimmy on the ticket also certainly helps with the southern vote."
+            "answer_feedback": "Ford will continue to benefit from the economic recovery for a while, but you do see a rise in the polls in many Southern states."
         }
     },
     {
