@@ -1,7 +1,7 @@
 /*
  
 Mod Title: DemReagan '76
-Mod Author: u/cathleen_xoxo
+Mod Author: cthln
 Mod Version: 1.0
 Mod Description: Alternate history scenario for the 1976 election between a Democratic Reagan and President Ford
 Coding License: Apache License 2.0
@@ -308,15 +308,6 @@ campaignTrail_temp.questions_json = [
         "fields": {
             "priority": 1,
             "description": "Well Ron, election day will soon be upon us. Where would you like the final few days of your campaign before the big day America's fate will be sealed?",
-            "likelihood": 1
-        }
-    },
-    {
-        "model": "campaign_trail.question",
-        "pk": 34223,
-        "fields": {
-            "priority": 0,
-            "description": "Your comments have thrown everything into the garbage. Like literally what? Why would you say that?! Are you stupid?",
             "likelihood": 1
         }
     }
@@ -1289,14 +1280,6 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 14000,
             "description": "The only way to win the Cold War is if we remain vigilant against the Soviets. Cutting our defense budget would only serve to undermine our position in the world."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 34224,
-        "fields": {
-            "question": 34223,
-            "description": "yeah"
         }
     }
 ]
