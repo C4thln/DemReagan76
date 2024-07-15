@@ -32,7 +32,7 @@ if (campaignTrail_temp.player_answers[26] == 28004 && quickstats[0] < 270) {
           }
       }, 100);
   }
-    return "<h3></h3><audio loop='true' autoplay='true' src='https://cdn.discordapp.com/attachments/306938131335086090/1138684914515050647/Aint_I_Right.mp3' style='display:none;'></audio>"
+    return "<h3></h3><audio loop='true' autoplay='true' src='https://files.catbox.moe/nj6gs6.mp3' style='display:none;'></audio>"
 } if (campaignTrail_temp.player_answers[26] == 28004 && quickstats[0] >= 270) {
   if (used != true) {
       setInterval(function () {
