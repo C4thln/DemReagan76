@@ -11839,6 +11839,10 @@ campaignTrail_temp.jet_data = [{
 }
 ]
 
+endingPicker = (out, totv, aa, quickstats) => {
+
+used=false
+
 orderID = [aa[0].candidate, aa[1].candidate, aa[2].candidate];
     playerID = campaignTrail_temp.candidate_id;
     playerEV = quickstats[0]
